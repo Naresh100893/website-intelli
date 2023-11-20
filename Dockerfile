@@ -1,6 +1,5 @@
 FROM amazonlinux:latest
-LABEL name="AutoPilot"
-
+LABEL name="november"
 RUN yum update -y && yum install -y nginx
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
