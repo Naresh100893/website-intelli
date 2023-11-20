@@ -1,5 +1,5 @@
 FROM amazonlinux:latest
-LABEL name= "devops"
+LABEL name="devops"
 RUN yum update -y && yum install -y nginx
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
