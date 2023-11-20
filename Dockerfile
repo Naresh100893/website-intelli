@@ -1,5 +1,5 @@
 FROM amazonlinux:latest
-LABEL name="febraury"
+LABEL name="march"
 RUN yum update -y && yum install -y nginx
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
