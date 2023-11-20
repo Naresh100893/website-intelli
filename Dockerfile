@@ -1,5 +1,5 @@
 FROM amazonlinux:latest
-LABEL name="SRE"
+LABEL name="AutoPilot"
 
 RUN yum update -y && yum install -y nginx
 EXPOSE 80
