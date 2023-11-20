@@ -1,5 +1,6 @@
 FROM amazonlinux:latest
-LABEL name="devops"
+LABEL name="SRE"
+
 RUN yum update -y && yum install -y nginx
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
